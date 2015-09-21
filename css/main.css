@@ -16,6 +16,11 @@ html{
 	box-sizing:inherit;
 }
 
+body{
+	margin:0;
+	font-family: sans-serif;
+}
+
 .masthead{
 	background-color: #efe6cd;
 	color: purple;
