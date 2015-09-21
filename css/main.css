@@ -1,3 +1,18 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale:1;}
+
+html{
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+
 *, *::before, *::after {
 	box-sizing:inherit;
 }
@@ -10,8 +25,6 @@ body{
 .masthead{
 	background-color: #efe6cd;
 	color: purple;
-	list-style-type: none;
-
 }
 
 .logo{
@@ -25,13 +38,20 @@ body{
 	font-family:'Overlock', cursive;
 }
 
-.masthead nav{
+nav li{
 	margin:0;
 	list-style-type: none;
 	color:purple;
+	text-decoration: none;
+	display: inline-block;
 }
 
+.masthead a{
+		list-style-type: none;
+		text-decoration: none;
+		display: inline-block;
+}
 
-.seven-wonders dt{
-	font-family: 'Roboto Slab', serif;
+.panorama{
+	width:25%;
 }
