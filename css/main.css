@@ -86,7 +86,7 @@ a:hover{
 figcaption{
 	position: absolute;
 	top:12rem;
-	font-size: 0.7em;
+	font-size: 1em;
 	color: #fff;
 	padding: 1rem;
 }
@@ -97,36 +97,169 @@ main{
 
 .seven{
 	background-color: #efe6cd;
-	margin: 0'
+	margin: 0;
 }
 
 .seven h2{
 	margin:0;
+	padding: 1rem;
 }
 
 .giza{
 	width:100%;
 }
 
+.babylon{
+	width: 100%;
+}
+
+.artemis{
+	width: 100%;
+}
+
+.zeus{
+	width: 100%;
+}
+
+.mausoleum{
+	width: 100%;
+}
+
+.rhodes{
+	width: 100%;
+}
+
+.alexandria{
+	width: 100%;
+	padding: 0.5rem;
+}
+
+
 .learn a{
 	padding-left: 4.5rem;
+	padding-bottom: 2rem;
 	text-decoration:none;
 	font-size: 0.7em;
+}
+
+.learn h3{
+	padding-bottom: 1rem;
 }
 
 dt{
 	font-size: 0.8em;
 	display: inline;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
 }
 
 dd{
 	font-size: 0.8em;
 	display: inline;
 	margin: 0;
-	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	
 }
+
+.buy{
+	background-color: #ced1f1;
+}
+
+.buy-tickets h2{
+	padding: 1rem;
+}
+
+strong{
+	padding: 1rem;
+}
+
+p{
+	padding: 1rem;
+	margin: 0;
+
+}
+
+.museum{
+	background-color: ##efe6cd;
+}
+
+.museum ul{
+	background-color: #efe6cd;
+}
+
+ul{
+	background-color: #ced1f1;
+}
+
+.this-week{
+	padding:1rem;
+	margin: 0;
+	background-color: #efe6cd
+}
+
+.maroti{
+	width: 100%;
+	margin: 0;
+}
+
+h2{
+	padding-left: 1rem;
+	padding-top: 1rem;
+	margin: 0;
+}
+
+h3{
+	padding: 1rem;
+	margin: 0;
+	background-color: #efe6cd;
+}
+
+li{
+	font-size: 0.8em;
+}
+
+ul{
+	
+	list-style-type: none;
+	margin: 0;
+	padding-left: 1rem;
+}
+
+.button a{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 40%;
+	text-align: center;
+	font-size: 0.8em;
+}
+
 footer{
 	padding:0;
+}
+
+footer aside{
+	background-color: #efe6cd;
+	padding: 1rem;
+	font-size: 0.7em;
+}
+
+.contact-us{
+	background-color: #efe6cd;
+	padding: 1rem;
+}
+
+.contact-us a{
+	text-decoration: none;
+	color: purple;
+	display: block;
+}
+
+
+
+footer p{
+	background-color: #efe6cd;
+	margin: 0;
+	padding: 1rem;
 }
 footer ul{
 	display:inline;
@@ -136,3 +269,7 @@ footer ul{
 footer nav ul li{
 	list-style-type:none;
 } 
+
+footer nav a{
+	font-size: 1em;
+}
