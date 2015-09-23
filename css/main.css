@@ -86,9 +86,11 @@ a:hover{
 figcaption{
 	position: absolute;
 	top:12rem;
-	font-size: 1em;
+	font-size: 0.7em;
 	color: #fff;
-	padding: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem
+
 }
 
 main{
@@ -140,6 +142,7 @@ main{
 	padding-bottom: 2rem;
 	text-decoration:none;
 	font-size: 0.7em;
+	display: inline-block;
 }
 
 .learn h3{
@@ -197,15 +200,31 @@ ul{
 	background-color: #efe6cd
 }
 
-.maroti{
-	width: 100%;
-	margin: 0;
+.atlantis-text{
+	position: relative;
+	top:500%;
+	background-color: #ced1f1;
+}
+
+.atlantis-text h3{
+	background-color: #ced1f1;
+	padding-top: 1rem;
+	padding-bottom: 0;
+}
+
+.playing img{
+	width: 100%
+}
+
+.now{
+	background-color: #efe6cd;
 }
 
 h2{
 	padding-left: 1rem;
 	padding-top: 1rem;
 	margin: 0;
+
 }
 
 h3{
@@ -227,10 +246,17 @@ ul{
 
 .button a{
 	display: inline-block;
-	padding-top: 1rem;
-	width: 40%;
+	padding: 1rem;
+	width: 100%;
 	text-align: center;
 	font-size: 0.8em;
+}
+
+.price {
+	width: 40;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 0.5rem;
 }
 
 footer{
