@@ -28,11 +28,14 @@ header {
 }
 
 .logo{
-	float:left;
+	display: inline;
 	width:70px;
 	padding-top:1rem;
 	padding-left: 1rem;
 	padding-bottom: 0.5rem;
+	top: 3rem;
+	
+
 
 }
 
@@ -59,11 +62,21 @@ nav a{
 	width: 100%;
 	padding:0.5rem;
 	color: black;
+	margin-right: 1.2rem;
 }
 
 a:hover{
 	color:purple;
 }
+
+@media only screen and (min-width: 30em) {
+
+	nav a{
+		width: 20%;
+		padding: 1rem;
+		font-size: 1em;
+	}
+	}
 
 .banner-img{
 		width:100%;
@@ -74,7 +87,7 @@ a:hover{
 
 .banner h2{
 	position: absolute;
-	top:11rem;
+	top:14rem;
 	font-size: 1em;
 	color: #fff;
 	font-family:'Overlock', cursive;
@@ -86,7 +99,7 @@ a:hover{
 
 figcaption{
 	position: absolute;
-	top:15rem;
+	top:17rem;
 	font-size: 0.7em;
 	color: #fff;
 	padding-bottom: 1rem;
