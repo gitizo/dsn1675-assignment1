@@ -37,7 +37,7 @@ header {
 }
 
 .title{
-	font-size: 1.3 rem;
+	font-size: 1em;
 	text-align: center;
 	font-family:'Overlock', cursive;
 	margin:0;
@@ -65,10 +65,12 @@ a:hover{
 	color:purple;
 }
 
-.panorama{
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 	width:100%;
-	margin:0;
-	position: relative;
+
 }
 
 .banner h2{
@@ -109,26 +111,32 @@ main{
 
 .giza{
 	width:100%;
+	padding: 0.5rem;
 }
 
 .babylon{
 	width: 100%;
+	padding: 0.5rem;
 }
 
 .artemis{
 	width: 100%;
+	padding: 0.5rem;
 }
 
 .zeus{
 	width: 100%;
+	padding: 0.5rem;
 }
 
 .mausoleum{
 	width: 100%;
+	padding: 0.5rem;
 }
 
 .rhodes{
 	width: 100%;
+	padding: 0.5rem;
 }
 
 .alexandria{
@@ -183,7 +191,7 @@ p{
 }
 
 .museum{
-	background-color: ##efe6cd;
+	background-color: #efe6cd;
 }
 
 .museum ul{
@@ -253,7 +261,7 @@ ul{
 }
 
 .price {
-	width: 40;
+	width: 40%;
 	text-align: center;
 	font-size: 0.8em;
 	padding: 0.5rem;
