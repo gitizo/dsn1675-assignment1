@@ -47,6 +47,12 @@ header {
 	padding-bottom: 0.5rem;
 }
 
+@media only screen and (min-width: 30em) {
+	.title{
+		font-size: 2em;
+	}
+	}
+
 nav{
 	background-color: #ced1f1;
 	text-decoration: none;
@@ -121,42 +127,98 @@ main{
 	padding: 1rem;
 }
 
-.giza{
+.seven-1 img{
 	width:100%;
 	padding: 0.5rem;
 }
 
-.babylon{
+@media only screen and (min-width: 50em) {
+	.seven-1{
+		width: 45%;
+		display: inline-block;
+		margin-left: ;
+	}
+	}
+
+.seven-2 img{
 	width: 100%;
 	padding: 0.5rem;
 }
 
-.artemis{
+@media only screen and (min-width: 50em) {
+	.seven-2{
+		width: 53%;
+		display: inline-block;
+	}
+	}
+
+
+
+.seven-3 img{
+	width: 100%;
+	padding: 0.5rem;
+	
+
+}
+
+@media only screen and (min-width: 50em){
+	.seven-3{
+		width: 53%;
+		display: inline-block;
+		margin-left: ;
+	
+	}
+}
+
+.seven-4 img{
 	width: 100%;
 	padding: 0.5rem;
 }
 
-.zeus{
+@media only screen and (min-width: 50em){
+	.seven-4{
+		width: 45%;
+		display: inline-block;
+	}
+}
+
+.seven-5 img{
 	width: 100%;
 	padding: 0.5rem;
 }
 
-.mausoleum{
+@media only screen and (min-width: 50em){
+	.seven-5{
+		width: 50%;
+		display: inline-block;
+		
+	}
+}
+
+.seven-6 img{
 	width: 100%;
 	padding: 0.5rem;
 }
 
-.rhodes{
+@media only screen and (min-width: 50em){
+	.seven-6{
+		width: 45%;
+		display: inline-block;
+	}
+}
+
+.seven-7 img{
 	width: 100%;
 	padding: 0.5rem;
 }
 
-.alexandria{
-	width: 100%;
-	padding: 0.5rem;
+@media only screen and (min-width: 50em){
+	.seven-7{
+		width: 50%;
+		display: inline-block;
+		margin-left: 13rem;
+	}
 }
-
-
 .learn a{
 	padding-left: 4.5rem;
 	padding-bottom: 2rem;
@@ -176,6 +238,8 @@ dt{
 	padding-left: 0.5rem;
 }
 
+
+
 dd{
 	font-size: 0.8em;
 	display: inline;
@@ -183,6 +247,8 @@ dd{
 	padding-left: 0.5rem;
 	
 }
+
+
 
 .buy{
 	background-color: #ced1f1;
