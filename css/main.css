@@ -84,11 +84,12 @@ a:hover{
 	}
 	}
 
+.banner{
+	margin: 0;
+}
+
 .banner-img{
 		width:100%;
-
-
-
 }
 
 .banner h2{
