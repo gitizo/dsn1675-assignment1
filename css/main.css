@@ -302,6 +302,49 @@ ul{
 	width: 100%
 }
 
+@media only screen and (min-width: 50em){
+	.sat{
+	float: left;
+	width: 50%
+}
+}
+
+@media only screen and (min-width: 50em){
+	.mon{
+	float: left;
+	width: 50%
+}
+}
+
+@media only screen and (min-width: 50em){
+	.tues{
+	float: left;
+	width: 50%;
+}
+}
+
+@media only screen and (min-width: 50em){
+	.wed{
+		float: left;
+		width: 50%;
+	}
+	}
+
+@media only screen and (min-width: 50em){
+	.thurs{
+		float: left;
+		width: 50%;
+	}
+	}
+
+@media only screen and (min-width: 50em){
+	.fri{
+		float: left;
+		width: 50%;
+	}
+	}
+
+}
 .now{
 	background-color: #efe6cd;
 }
